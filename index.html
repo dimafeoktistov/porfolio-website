@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Portfolio page</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/media.css">
+   </head>
+   <body>
+     <header class="main" id="home">
+      <div class="header">
+        <a  class="logo" href="#"></a>
+        <a href="#home" class="m-menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="menu visible-lg">
+          <ul>
+            <li><a href="#featured" class="menu-link button">Portfolio</a></li>
+            <li><a href="#about-me" class="menu-link button">About me</a></li>
+            <li><a href="#home" class="menu-link button">Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-text">
+        <span>Biology and Web-design</span>
+        <h1>Feoktistov Dmitriy</h1>
+        <p>FRONT-END NINJA</p>
+      </div>
+      <div class="down-arrow">
+        <a href="#featured" class="arrow-button">
+          <img src="img/arrow.png" alt="arrow button">
+        </a>
+      </div>
+     </header>
+     <div class="main-content">
+      <section class="featured" id="featured">
+        <div class="featured-content">
+         <span>featured content</span>
+         <h2>My projects</h2>
+         <p>Here is a few examples of my projects</p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <img src="img/number-guesser.png" alt="screenshot of number guesser project">
+            <h3>Number guesser</h3>
+            <p>Number guessing game.</p>
+            <p><a href="https://dimafeoktistov.github.io/number-guesser/" target="_blank" class="project-btn">Go!</a></p>
+          </div>
+          <div class="project">
+            <img src="img/loan-calculator.png" alt="screenshot of loan calculator project">
+            <h3>Loan calculator</h3>
+            <p>Calculator of loan percentages.</p>
+            <p><a href="https://dimafeoktistov.github.io/loancalculator/" target="_blank" class="project-btn">Go!</a></p>
+          </div>
+          <div class="project">
+            <img src="img/chuck-norris.png" alt="screenshot of Chuck Norris joke project">
+            <h3>Chuck Norris Joke Generator</h3>
+            <p>Generator of the jokes about Chuck Norris with AJAX api.</p>
+            <p><a href="https://dimafeoktistov.github.io/chucknorris/" target="_blank" class="project-btn">Go!</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="about-me" id="about-me">
+        <article class="article-about-me">
+          <h2>About me!</h2>
+          <img sizes="(max-width: 375px) 90vw, (max-width: 480px) 90vw, 70vw" srcset="img/my-photo-medium.jpg 375w, img/my-photo-large.jpg 480w, img/my-photo-extralarge.jpg 768w" src="img/my-photo-large.jpg" alt="picture of website authour">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor inventore eum odio cupiditate ea.
+            Obcaecati deleniti quidem soluta neque nemo non quae eos voluptatem! Incidunt velit ducimus saepe laudantium cumque expedita molestiae,
+            officia illo quidem corporis suscipit enim quam ab, dicta totam quasi. Explicabo perferendis veritatis corporis nulla libero. Ea.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit excepturi enim deserunt, dignissimos quos, dolor unde maiores quidem tempore
+            pariatur voluptates maxime minima ullam eum, quisquam incidunt cum. Ea repellendus nulla consequatur aut magni inventore incidunt provident commodi,
+            sit non laudantium autem deleniti nesciunt odio, repellat repudiandae unde possimus maxime.
+          </p>
+        </article>
+      </section>
+      <footer>
+        <div class="footer">
+          <a  class="logo" href="#home"></a>
+          <a href="#" class="m-footer-menu">
+            <i class="fa fa-bars"></i>
+          </a>
+          <div class="footer-menu visible-lg">
+            <ul>
+              <li><a href="#featured" class="footer-menu-item footer-btn">Portfolio</a></li>
+              <li><a href="#about-me" class="footer-menu-item footer-btn">About me</a></li>
+              <li><a href="#home" class="footer-menu-item footer-btn">Home</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy">
+         <div class="copyright">
+           &copy Feoktistov D.S. Udacity front-end nanodegree student 2018
+         </div>
+         <div class="social">
+           <a href="https://www.facebook.com/dima.feoktistov.9" target="_blank"><i class="fa fa-facebook"></i></a>
+           <a href="https://plus.google.com/u/0/102416570922874443146" target="_blank"><i class="fa fa-google-plus"></i></a>
+           <a href="https://vk.com/dimafeoktistov" target="_blank"><i class="fa fa-vk"></i></a>
+           <a href="https://github.com/dimafeoktistov" target="_blank"><i class="fa fa-github"></i></a>
+         </div>
+        </div>
+      </footer>
+      </div>
+     <ul class="m-menu-items">
+       <li><button class="close-menu">&times</button></li>
+       <li><a href="#featured" class="menu-link button">Portfolio</a></li>
+       <li><a href="#about-me" class="menu-link button">About me</a></li>
+       <li><a href="#home" class="menu-link button">Home</a></li>
+     </ul>
+    <script src="js/app.js" charset="utf-8"></script>
+   </body>
+</html>
