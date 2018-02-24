@@ -169,7 +169,6 @@ featured-content
 .projects {
   display: flex;
   justify-content: center;
-  align-items: space-around;
 }
 
 .project {
